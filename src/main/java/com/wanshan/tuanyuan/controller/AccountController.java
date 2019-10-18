@@ -17,7 +17,7 @@ public class AccountController {
 
 
     @PostMapping("/account/add")
-    public Result<Account> add(@RequestBody Account account){
+    public Result<String> add(@RequestBody Account account){
         return accountService.add(account);
     }
 

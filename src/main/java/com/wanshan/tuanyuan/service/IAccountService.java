@@ -12,6 +12,6 @@ public interface IAccountService {
      * @param account
      * @return
      */
-    Result<Account> add(Account account);
+    Result<String> add(Account account);
 
 }
